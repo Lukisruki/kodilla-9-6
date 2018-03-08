@@ -6,4 +6,5 @@ var list = document.getElementById('list'),
         element.innerHTML = 'item';
         var liText = document.getElementsByTagName('li');
         list.appendChild(element);
+        list.innerHTML += '<li>' + item + '</li>';
 });
